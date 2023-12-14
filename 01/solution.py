@@ -16,7 +16,7 @@ with open('data.txt', 'r') as f:
 
 		sum += number
 
-	print(sum)
+	print('Part 1:', sum)
 
 	# Part 2
 	values = 	['zero', 'one', 'two', 'three', 
@@ -48,4 +48,4 @@ with open('data.txt', 'r') as f:
 				last_key = value
 		sum += 10*keys[first_key] + keys[last_key]
 		i += 1
-	print(sum)
+	print('Part 2:', sum)
